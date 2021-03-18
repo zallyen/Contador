@@ -10,7 +10,7 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
     lateinit var primerBoton:Button
     lateinit var segundoBoton:Button
-
+//pequeño cambio
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
