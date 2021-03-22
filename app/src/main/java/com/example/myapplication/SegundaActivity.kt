@@ -41,7 +41,9 @@ class SegundaActivity : AppCompatActivity() {
 
         }
         btnDecrementar.setOnClickListener {
-            contador--
+            if (contador !== 0) {
+                contador--
+            }
             tvContador.text = "$contador"
         }
 
