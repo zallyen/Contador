@@ -9,39 +9,66 @@
 
     <Button
         android:id="@+id/tercer_boton"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/etiqueta_boton_tres"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:backgroundTint="#7E57C2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cuarto_boton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/cuarto_boton"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/etiqueta_boton_cuatro"
+        app:backgroundTint="#5C6BC0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/incrementar_boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/etiqueta_boton_incrementar"
-        app:layout_constraintBottom_toTopOf="@+id/cuarto_boton"
+        app:backgroundTint="#66BB6A"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_contador" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
 
     <TextView
         android:id="@+id/tv_contador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/cuarto_boton"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tercer_boton" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/decrementar_boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_boton_decrementar"
+        app:backgroundTint="#EF5350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
 </androidx.constraintlayout.widget.ConstraintLayout>

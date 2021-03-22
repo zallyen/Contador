@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Counter</string>
+    <string name="titulo2">Second Activity</string>
+    <string name="titulo3">Third Activity</string>
     <string name="etiqueta_boton_uno">Go to second activity</string>
     <string name="etiqueta_boton_dos">Go to third activity</string>
+    <string name="etiqueta_boton_tres">Go to first activity</string>
+    <string name="etiqueta_boton_cuatro">Go to third activity</string>
+    <string name="etiqueta_boton_cinco">Go to first activity</string>
+    <string name="etiqueta_boton_seis">Go to second activity</string>
+    <string name="etiqueta_boton_incrementar">Increase</string>
+    <string name="etiqueta_boton_decrementar">Decrease</string>
+    <string name="etiqueta_nombre">Salvador Enrique German Becerra</string>
+    <string name="etiqueta_carrera">Licenciatura en Tecnologías de la información</string>
+    <string name="etiqueta_semestre">6to semestre</string>
+    <string name="etiqueta_materia">Tópicos selectos de tecnologías 1</string>
+    <string name="etiqueta_por">By:</string>
 </resources>

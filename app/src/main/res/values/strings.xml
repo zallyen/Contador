@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Contador</string>
+    <string name="titulo2">Segunda actividad</string>
+    <string name="titulo3">Tercera actividad</string>
     <string name="etiqueta_boton_uno">Ir a segunda actividad</string>
     <string name="etiqueta_boton_dos">Ir a tercera actividad</string>
     <string name="etiqueta_boton_tres">Ir a primera actividad</string>
@@ -7,4 +9,10 @@
     <string name="etiqueta_boton_cinco">Ir a primera actividad</string>
     <string name="etiqueta_boton_seis">Ir a segunda actividad</string>
     <string name="etiqueta_boton_incrementar">Incrementar</string>
+    <string name="etiqueta_boton_decrementar">Decrementar</string>
+    <string name="etiqueta_nombre">Salvador Enrique German Becerra</string>
+    <string name="etiqueta_carrera">Licenciatura en Tecnologías de la información</string>
+    <string name="etiqueta_semestre">6to semestre</string>
+    <string name="etiqueta_materia">Tópicos selectos de tecnologías 1</string>
+    <string name="etiqueta_por">Por:</string>
 </resources>

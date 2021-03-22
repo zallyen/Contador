@@ -12,6 +12,7 @@ class SegundaActivity : AppCompatActivity() {
     lateinit var tercerBoton:Button
     lateinit var cuartoBoton:Button
     lateinit var btnIncrementar:Button
+    lateinit var btnDecrementar:Button
     lateinit var tvContador:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +22,7 @@ class SegundaActivity : AppCompatActivity() {
         tercerBoton = findViewById(R.id.tercer_boton)
         cuartoBoton = findViewById(R.id.cuarto_boton)
         btnIncrementar = findViewById(R.id.incrementar_boton)
+        btnDecrementar = findViewById(R.id.decrementar_boton)
         tvContador = findViewById(R.id.tv_contador)
 
         tercerBoton.setOnClickListener(View.OnClickListener {
@@ -37,6 +39,10 @@ class SegundaActivity : AppCompatActivity() {
             contador++
             tvContador.text = "$contador"
 
+        }
+        btnDecrementar.setOnClickListener {
+            contador--
+            tvContador.text = "$contador"
         }
 
     }
